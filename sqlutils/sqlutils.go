@@ -21,11 +21,12 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	_ "github.com/go-sql-driver/mysql"
-	"github.com/openark/golib/log"
 	"strconv"
 	"strings"
 	"sync"
+
+	_ "github.com/go-sql-driver/mysql"
+	"github.com/lotusirous/golib/log"
 )
 
 // RowMap represents one row in a result set. Its objective is to allow
